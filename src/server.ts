@@ -1,9 +1,23 @@
 import Fastify from 'fastify';
+import cors from '@fastify/cors';
+import { PrismaClient } from '@prisma/client';
 
 const app = Fastify();
+const prisma = new PrismaClient();
+
+app.register(cors);
+// app.register(cors, {
+//   origin: ['http://localhost:3000'] // => apenas este endereço frontend teria acesso
+// });
 
 app.get('/', () => {
-  return 'Hello world!'
+  return 'Hello world!';
+});
+
+app.get('/hello', async () => {
+  const habits = await prisma.habit.findMany();
+
+  return habits;
 });
 
 app.listen({
