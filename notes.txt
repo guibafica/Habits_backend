@@ -1,0 +1,4 @@
+Tempo atual aula => 00:40:00 (1)
+
++ Rodar migration => yarn prisma migrate dev
++ Abrir BD no navegador => yarn prisma studio
