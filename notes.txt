@@ -1,3 +1,5 @@
 + Rodar migration => yarn prisma migrate dev
 + Abrir BD no navegador => yarn prisma studio
++ Rodar seed => npx prisma db seed
+
 + npx prisma generate
