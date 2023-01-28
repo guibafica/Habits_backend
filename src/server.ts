@@ -5,7 +5,7 @@ import { PrismaClient } from '@prisma/client';
 const app = Fastify();
 const prisma = new PrismaClient();
 
-app.register(cors);
+app.register(cors); // => qualquer aplicação pode consumir os dados
 // app.register(cors, {
 //   origin: ['http://localhost:3000'] // => apenas este endereço frontend teria acesso
 // });
