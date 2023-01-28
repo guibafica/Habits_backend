@@ -28,8 +28,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta.
 
 ```bash
-$ git clone https://github.com/JefMoreira/NLW-Setup-Habit.git
-$ cd nlw-setup-habit
+$ git clone https://github.com/guibafica/Habits_backend
+$ cd habits_backend
 ```
 
 Siga os passos abaixo, para instalar os serviços Web, Mobile e Server:
