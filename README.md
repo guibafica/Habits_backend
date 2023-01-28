@@ -34,14 +34,14 @@ $ cd habits_backend
 
 Siga os passos abaixo, para instalar os serviços Web, Mobile e Server:
 
-### Server
+### Backend
 
 ```bash
-# Instalando as dependências dos Server
-$ cd server
+# Instalando as dependências do Backend
+$ cd backend
 $ npm install
 
-# Iniciando Server do projeto 
+# Iniciando Backend do projeto 
 $ npx prisma migrate deploy
 $ npm run dev
 ```
@@ -77,4 +77,4 @@ Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para pod
 
 ---
 
-Projeto desenvolvido com 💜 por [JefMoreira](https://github.com/JefMoreira)
+Projeto desenvolvido com 💜 por [GuiBafica](https://github.com/guibafica)
